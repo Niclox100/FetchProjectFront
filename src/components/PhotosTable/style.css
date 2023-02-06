@@ -1,0 +1,11 @@
+.photo-container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.photo-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}

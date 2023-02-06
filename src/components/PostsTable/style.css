@@ -1,0 +1,18 @@
+
+.postsList-Container{
+    margin-top: 30px;
+}
+
+.postsList-group{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.postsList-title{
+    text-align: center;
+}
+
+.pagination-container{
+    display: flex;
+    justify-content: center;
+}
