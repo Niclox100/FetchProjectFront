@@ -15,3 +15,25 @@ code {
 html{
   margin: 20px;
 }
+
+.login-register{
+  width: 100%;
+  display: flex;
+}
+
+.form-body{
+  margin: 3rem;
+  margin-bottom: 1rem;
+}
+
+.login-register-button{
+  margin: auto;
+  margin-bottom: 0px;
+}
+
+.form-register{
+  padding-left: 5px;
+}
+.form-register-container{
+  justify-content: center;
+}

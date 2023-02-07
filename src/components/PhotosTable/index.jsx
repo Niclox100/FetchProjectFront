@@ -14,7 +14,6 @@ const PhotosTable = ({token}) => {
 
     const photosUrl = `https://conexa-challenge-back-w8as.vercel.app/api/jphdata/photos?limit=${fetchLimit}&offset=${fetchOffset}`
 
-
     const fetchApi = async() => {
         setLoading(true)
         const apiData = await getAPI(photosUrl, token)

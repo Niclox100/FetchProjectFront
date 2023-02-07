@@ -8,7 +8,7 @@ const UserProfile = ({token}) => {
   const [userInfo, setUserInfo] = useState({})
   
   const userUrl = "https://conexa-challenge-back-w8as.vercel.app/api/users/info"
-    
+
     useEffect(()=> {
       const fetchApi = async()=> {
         await axios.get(userUrl, {
@@ -26,8 +26,8 @@ const UserProfile = ({token}) => {
     
   return (
     <div>
-        <p className='user-info'>Usuario: {userInfo.userName}</p>
-        <p className='user-info'>Email: {userInfo.email}</p>
+        <p className='user-info'>Usuario: {userInfo.userName || "Cargando..."}</p>
+        <p className='user-info'>Email: {userInfo.email || "Cargando..."}</p>
     </div>
   )
 }

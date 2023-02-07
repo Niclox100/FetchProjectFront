@@ -20,7 +20,6 @@ function HomeScreen() {
             navigate("/login")
         }
     },[])
-    console.log(token);
     return(
         <>
             <h1 style={{textAlign: "center"}}>Conexa Challenge</h1>
