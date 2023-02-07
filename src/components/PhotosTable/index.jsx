@@ -12,7 +12,7 @@ const PhotosTable = ({token}) => {
     const [currentPage, setCurrentPage] = useState(1)
     const [photosPerPage] = useState(10)
 
-    const photosUrl = `http://localhost:3001/api/jphdata/photos?limit=${fetchLimit}&offset=${fetchOffset}`
+    const photosUrl = `https://conexa-challenge-back-w8as.vercel.app/api/jphdata/photos?limit=${fetchLimit}&offset=${fetchOffset}`
 
 
     const fetchApi = async() => {
