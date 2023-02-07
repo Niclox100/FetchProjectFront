@@ -17,7 +17,7 @@ function LoginScreen() {
 
     const handleSubmit = async(e)=> {
         e.preventDefault();
-        let res = await axios.post("http://localhost:3001/api/users/login", credentials)
+        let res = await axios.post("https://conexa-challenge-back-w8as.vercel.app/api/users/login", credentials)
         if(res.data.token){
             navigate("/home", {state: {token: res.data.token}})
         }

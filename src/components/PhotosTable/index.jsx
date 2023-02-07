@@ -64,7 +64,7 @@ const PhotosTable = ({token}) => {
         ))}
         </ul>
         <Pagination entrysPerPage={photosPerPage} totalEntrys={photos.length} paginate={paginate}/>
-        <div>
+        <div className="limit-offset-container">
             <input type="number" className="photo-fetchLimit" placeholder="Limite"/>
             <input type="number" className="photo-fetchOffset" placeholder="Offset"/>
             <button onClick={handleLimitAndOffset}>Establecer</button>
