@@ -33,7 +33,7 @@ function LoginScreen() {
                 <div className="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
                     <div className="card shadow-lg">
                         <div className="card-body form-body">
-                            <h1 className="fs-4 card-title fw-bold mb-4">Login</h1>
+                            <h1 className="fs-4 card-title fw-bold mb-4">Iniciar Sesión</h1>
                             <form className="needs-validation" onSubmit={handleSubmit} noValidate={true} autoComplete="off">
                                 <div className="mb-3">
                                     <label className="mb-2 text-muted" htmlFor="email">Email</label>

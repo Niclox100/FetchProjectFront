@@ -69,7 +69,7 @@ function SignInScreen() {
                         <div className="mb-2 w-100 d-flex align-items-center form-register-container" >
                             <span>Ya tienes cuenta?</span>
                             <Link to ="/" className="form-register">
-                            Registrarse
+                            Inicia Sesion
                             </Link>
                         </div>
                         <div className="card-footer py-3 border-0">
