@@ -22,7 +22,7 @@ function HomeScreen() {
     },[])
     return(
         <>
-            <h1 style={{textAlign: "center"}}>Conexa Challenge</h1>
+            <h1 style={{textAlign: "center"}}>Fetching de datos</h1>
             <UserProfile token={token}/>
             <PhotosTable token={token}/>
             <PostsTable token={token}/>

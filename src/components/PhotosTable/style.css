@@ -1,15 +1,59 @@
-.photo-container{
+.photosList-Container {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .photosList-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .photo-container {
     display: flex;
     align-items: center;
     margin: 10px;
-}
-
-.photo-description{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .photo-container img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .photo-description {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-}
-
-.limit-offset-container input {
-    margin: 10px;
-}
+  }
+  
+  .photo-description span {
+    margin-bottom: 5px;
+  }
+  
+  .limit-offset-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .limit-offset-container input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .limit-offset-container button {
+    background-color: #0077FF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .limit-offset-container button:hover {
+    background-color: #0066CC;
+  }

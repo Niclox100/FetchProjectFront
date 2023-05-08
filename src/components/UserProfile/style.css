@@ -1,0 +1,12 @@
+.user-info {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-info:before {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #666;
+}

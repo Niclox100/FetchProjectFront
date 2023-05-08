@@ -45,7 +45,7 @@ const PostsTable = ({token}) => {
                 </>
             ))}
         </ul>
-        <Pagination entrysPerPage={postsPerPage} totalEntrys={posts.length} paginate={paginate}/>
+        <Pagination entrysPerPage={postsPerPage} totalEntrys={posts.length} paginate={paginate} className="pagination"/>
     </section>
     )
 }
