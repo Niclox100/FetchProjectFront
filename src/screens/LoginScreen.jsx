@@ -36,7 +36,7 @@ function LoginScreen() {
                             <h1 className="fs-4 card-title fw-bold mb-4">Login</h1>
                             <form className="needs-validation" onSubmit={handleSubmit} noValidate={true} autoComplete="off">
                                 <div className="mb-3">
-                                    <label className="mb-2 text-muted" htmlFor="email">Usuario</label>
+                                    <label className="mb-2 text-muted" htmlFor="email">Email</label>
                                     <input id="email" type="text" onChange={handleInputChange} className="form-control" name="email" required autoFocus />
                                     <div className="invalid-feedback">
                                         Usuario inválido
