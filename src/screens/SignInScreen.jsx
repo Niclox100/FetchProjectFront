@@ -18,7 +18,7 @@ function SignInScreen() {
 
     const handleSubmit = async(e)=> {
         e.preventDefault();
-        let res = await axios.post("https://conexa-challenge-back-w8as.vercel.app/api/users/signin", credentials)
+        let res = await axios.post("https://fetchprojectback-ncolombo.vercel.app/api/users/signin", credentials)
         if(res.data.token){
             navigate("/home", {state: {token: res.data.token}})
         }

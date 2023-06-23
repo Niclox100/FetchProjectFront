@@ -7,7 +7,7 @@ const UserProfile = ({token}) => {
 
   const [userInfo, setUserInfo] = useState({})
   
-  const userUrl = "https://conexa-challenge-back-w8as.vercel.app/api/users/info"
+  const userUrl = "https://fetchprojectback-ncolombo.vercel.app/api/users/info"
 
     useEffect(()=> {
       const fetchApi = async()=> {

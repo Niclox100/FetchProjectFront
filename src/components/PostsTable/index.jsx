@@ -9,7 +9,7 @@ const PostsTable = ({token}) => {
     const [currentPage, setCurrentPage] = useState(1)
     const [postsPerPage] = useState(10)
 
-    const postUrl = "https://conexa-challenge-back-w8as.vercel.app/api/jphdata/posts"
+    const postUrl = "https://fetchprojectback-ncolombo.vercel.app/api/jphdata/posts"
 
     const getApiData = async() => {
         setLoading(true)
